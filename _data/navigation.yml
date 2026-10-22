@@ -1,14 +1,8 @@
 main:
   - title: "Home"
     url: /
-  - title: "Formule"
-    url: /#formule
-  - title: "Piani e camere"
+  - title: "La Villa"
     url: /#piani
-  - title: "Giardino"
-    url: /#giardino
-  - title: "Dove siamo"
-    url: /#posizione
   - title: "Blog"
     url: /blog/
   - title: "Contatti"

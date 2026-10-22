@@ -31,3 +31,13 @@
 # Per levare una tendina: cancella il blocco, la voce torna un link normale.
 # Documentazione del funzionamento: commento in testa a _includes/masthead.html.
 # =====================================================================================
+
+La Villa:
+  - title: "Formule"
+    url: /#formule
+  - title: "Piani e camere"
+    url: /#piani
+  - title: "Giardino"
+    url: /#giardino
+  - title: "Dove siamo"
+    url: /#posizione
