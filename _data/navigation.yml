@@ -7,5 +7,7 @@ main:
     url: /#giardino
   - title: "Dove siamo"
     url: /#posizione
+  - title: "Blog"
+    url: /blog/
   - title: "Contatti"
     url: /contatti/
