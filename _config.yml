@@ -1,53 +1,16 @@
 related_posts: 3
 email: ""
-description: >-
-  Lavori in quota su doppia fune: grondaie, facciate, tetti, messa in sicurezza. Operatori certificati, sopralluogo e preventivo gratuiti.
-footer_text: "&copy; 2026 EdilExtreme - Design, Development & Digital Marketing by <a href=\"https://webtomars.it\" target=\"_blank\" rel=\"noopener\">webtomars.it</a>"
-twitter_username: username
-github_username: username
+description: "Villa a Mentana, zona Mezzaluna, vicino Roma: 3 appartamenti con cucina, 18 posti letto e giardino. B&B, camere a notte, soggiorni lunghi e villa intera."
 minimal_mistakes_skin: default
 search: true
 
 # SEO globale
 author:
-  name: "Andrew"
-  avatar: "/assets/images/bio-photo.jpg"
-  home: "/chi-sono/"
-  bio: "Ciao, sono Andrew, fondatore di EdilExtreme. Lavori in quota senza ponteggi: piÃ¹ rapidi e meno costosi. Se hai un lavoro in mente, scrivimi o chiamami al [+39 328 197 0254](tel:+393281970254): ti rispondo volentieri."
-  links:
-    - label: "WhatsApp"
-      icon: "fab fa-fw fa-whatsapp"
-      url: "https://wa.me/393281970254?text=Buongiorno%2C%20vorrei%20un%20preventivo%20per%20un%20lavoro%20in%20quota."
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "/contatti/"
-    - label: "Sito web"
-      icon: "fas fa-fw fa-link"
-      url: "#"
-    - label: "X"
-      icon: "fab fa-fw fa-x-twitter"
-      url: "#"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "#"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "#"
-    - label: "TikTok"
-      icon: "fab fa-fw fa-tiktok"
-      url: "#"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "#"
+  name: ""
 
 social:
-  name: CMSPush
-  links:
-    - https://twitter.com/username
-    - https://github.com/cialdecompatibili-netizen
+  links: []
 
-twitter:
-  username: username
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -81,13 +44,7 @@ plugins:
   - jekyll-include-cache
 
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+  links: []
 
 defaults:
   - scope:
@@ -95,7 +52,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -105,7 +62,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   - scope:
       path: ""
       type: products
@@ -117,7 +74,7 @@ defaults:
       type: servizi
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       share: true
   - scope:
@@ -125,7 +82,7 @@ defaults:
       type: progetti
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid
@@ -137,4 +94,6 @@ tag_archive:
 cms_homepage:
 
 # Numero WhatsApp con prefisso, senza + e senza spazi (es. 393331234567). Vuoto = bottone nascosto
-whatsapp: "393281970254"
+whatsapp: ""
+# Indirizzo del servizio che inoltra il modulo di contatto (worker). Vuoto = il modulo non appare.
+contact_endpoint: ""

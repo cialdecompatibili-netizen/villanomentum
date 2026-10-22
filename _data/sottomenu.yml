@@ -31,33 +31,3 @@
 # Per levare una tendina: cancella il blocco, la voce torna un link normale.
 # Documentazione del funzionamento: commento in testa a _includes/masthead.html.
 # =====================================================================================
-
-Servizi:
-  - title: "Tutti i servizi"
-    url: "/servizi/"
-  - divider: true
-  - title: "Impermeabilizzazione su fune"
-    url: "/servizi/impermeabilizzazione-su-fune/"
-  - title: "Installazione e manutenzione dissuasori per piccioni"
-    url: "/servizi/installazione-e-manutenzione-dissuasori-per-piccioni/"
-  - title: "Montaggio isolanti"
-    url: "/servizi/montaggio-isolanti/"
-  - title: "Montaggio sistemi di sicurezza su fune"
-    url: "/servizi/montaggio-sistemi-di-sicurezza-su-fune/"
-  - title: "Potatura alberi"
-    url: "/servizi/potatura-alberi/"
-  - title: "Pulizia componenti su fune"
-    url: "/servizi/pulizia-componenti-su-fune/"
-  - title: "Pulizia pannelli fotovoltaici"
-    url: "/servizi/pulizia-pannelli-fotovoltaici/"
-  - title: "Pulizia vetri"
-    url: "/servizi/pulizia-vetri/"
-  - title: "Pulizia, manutenzione e installazione canne fumarie"
-    url: "/servizi/pulizia-manutenzione-e-installazione-canne-fumarie/"
-  - title: "Rimozione materiale pericolante"
-    url: "/servizi/rimozione-materiale-pericolante/"
-  - title: "Riparazione e pulizia grondaie"
-    url: "/servizi/riparazione-e-pulizia-grondaie/"
-  - title: "Ristrutturazioni balconi e facciate"
-    url: "/servizi/ristrutturazioni-balconi-e-facciate/"
-

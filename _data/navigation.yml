@@ -1,15 +1,11 @@
 main:
-  - title: "Home"
-    url: /
-  - title: "Lavori svolti"
-    url: /progetti/
-  - title: "Galleria"
-    url: /galleria/
-  - title: "Blog"
-    url: /blog/
-  - title: "Chi sono"
-    url: /chi-sono/
-  - title: "Servizi"
-    url: /servizi/
+  - title: "Formule"
+    url: /#formule
+  - title: "Piani e camere"
+    url: /#piani
+  - title: "Giardino"
+    url: /#giardino
+  - title: "Dove siamo"
+    url: /#posizione
   - title: "Contatti"
     url: /contatti/
