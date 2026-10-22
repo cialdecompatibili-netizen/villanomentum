@@ -1,4 +1,6 @@
 main:
+  - title: "Home"
+    url: /
   - title: "Formule"
     url: /#formule
   - title: "Piani e camere"
