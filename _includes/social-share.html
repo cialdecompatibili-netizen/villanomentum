@@ -1,5 +1,6 @@
+{%- include site-name.html -%}
 {%- assign share_url = page.url | absolute_url | url_encode -%}
-{%- assign share_title = page.title | default: site.title | strip_html | url_encode -%}
+{%- assign share_title = page.title | default: site_name | strip_html | url_encode -%}
 <section class="page__share">
   <h4 class="page__share-title">Condividi su</h4>
   <a href="https://wa.me/?text={{ share_title }}%20{{ share_url }}" class="btn btn--share btn--whatsapp" target="_blank" rel="noopener" title="Condividi su WhatsApp"><i class="fab fa-fw fa-whatsapp" aria-hidden="true"></i><span> WhatsApp</span></a>

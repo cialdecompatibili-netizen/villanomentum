@@ -1,3 +1,4 @@
+{%- include site-name.html -%}
 {%- comment -%}
   FAQ + dati strutturati (Service e FAQPage) delle pagine servizio.
   Le domande stanno nel front matter della pagina:
@@ -30,8 +31,8 @@
       "serviceType": {{ page.title | jsonify }},
       "provider": {
         "@type": "LocalBusiness",
-        "name": {{ site.title | jsonify }},
-        "url": {{ site.url | default: "https://edilextreme.com" | jsonify }},
+        "name": {{ site_name | jsonify }},
+        "url": {{ site.url | append: site.baseurl | jsonify }},
         "telephone": "+39{{ site.whatsapp | remove_first: '39' }}"
       }
     }{% if page.faq and page.faq.size > 0 %},

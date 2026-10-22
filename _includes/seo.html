@@ -1,3 +1,4 @@
+{%- include site-name.html -%}
 {% comment %}
   SEO PLUGIN — CMSPush
   Incluso automaticamente da _includes/head/custom.html
@@ -24,9 +25,9 @@
 {% endif %}
 
 {% if seo_title %}
-  {% assign seo_title_full = seo_title | append: ' - ' | append: site.title %}
+  {% assign seo_title_full = seo_title | append: ' - ' | append: site_name %}
 {% else %}
-  {% assign seo_title_full = site.title %}
+  {% assign seo_title_full = site_name %}
 {% endif %}
 
 <!-- CMSPush SEO Plugin -->
@@ -50,7 +51,7 @@
 <meta property="og:type"        content="{% if page.date %}article{% else %}website{% endif %}">
 <meta property="og:title"       content="{{ seo_title | escape }}">
 <meta property="og:url"         content="{{ seo_url }}">
-<meta property="og:site_name"   content="{{ site.title | escape }}">
+<meta property="og:site_name"   content="{{ site_name | escape }}">
 {% if seo_description %}
   <meta property="og:description" content="{{ seo_description | truncate: 200 | escape }}">
 {% endif %}
