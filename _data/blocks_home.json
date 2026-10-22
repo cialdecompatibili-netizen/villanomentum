@@ -34,5 +34,11 @@
         "nome":  "Richiesta",
         "enabled":  true,
         "html":  "<section class=\"ex-band\" id=\"richiesta\" aria-labelledby=\"richiesta-title\"><div class=\"ex-band-in\"><div><h2 class=\"ex-h2\" id=\"richiesta-title\">Chiedi date e disponibilit&agrave;</h2><p>Dicci quando arrivi, in quanti siete e cosa cerchi: camera, piano o villa intera.</p></div><a class=\"ex-btn ex-btn-k\" href=\"__BASEURL__/contatti/\">Contattaci</a></div></section>"
+    },
+    {
+        "id":  "perchi",
+        "nome":  "Per chi",
+        "enabled":  true,
+        "html":  "<section class=\"ex-sec ex-sec-warm\" id=\"perchi\" aria-labelledby=\"perchi-title\"><div class=\"ex-wrap\"><h2 class=\"ex-h2\" id=\"perchi-title\">Per chi &egrave; la villa</h2><div class=\"ex-grid3\"><div><h3>Smart worker</h3><p>Una casa tranquilla dove lavorare per settimane o mesi, con cucina e giardino per le pause.</p><p style=\"margin-top:.75rem\"><a href=\"__BASEURL__/smart-worker/\">Soggiorni lunghi &rarr;</a></p></div><div><h3>Studentesse</h3><p>Una stanza in villa vicino a Roma, con cucina, salone e giardino dove studiare.</p><p style=\"margin-top:.75rem\"><a href=\"__BASEURL__/studentesse/\">Stanze per studentesse &rarr;</a></p></div><div><h3>Turisti</h3><p>B&amp;B o camera a notte, colazione in giardino e Roma a portata di bus.</p><p style=\"margin-top:.75rem\"><a href=\"__BASEURL__/turisti/\">Dormire a Mentana &rarr;</a></p></div></div></div></section>"
     }
 ]

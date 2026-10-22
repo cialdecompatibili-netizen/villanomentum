@@ -41,3 +41,10 @@ La Villa:
     url: /#giardino
   - title: "Dove siamo"
     url: /#posizione
+  - divider: true
+  - title: "Per smart worker"
+    url: /smart-worker/
+  - title: "Per studentesse"
+    url: /studentesse/
+  - title: "Per turisti"
+    url: /turisti/
