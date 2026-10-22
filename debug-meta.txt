@@ -1,0 +1,18 @@
+---
+permalink: /debug-meta.txt
+sitemap: false
+---
+github.url={{ site.github.url }}
+github.repository_name={{ site.github.repository_name }}
+github.owner_name={{ site.github.owner_name }}
+github.is_project_page={{ site.github.is_project_page }}
+github.is_user_page={{ site.github.is_user_page }}
+github.pages_hostname={{ site.github.pages_hostname }}
+github.hostname={{ site.github.hostname }}
+github.cname={{ site.github.cname }}
+site.url={{ site.url }}
+site.baseurl={{ site.baseurl }}
+site.title={{ site.title }}
+page.url={{ page.url }}
+jekyll.environment={{ jekyll.environment }}
+keys={{ site.github | jsonify | truncate: 1200 }}
